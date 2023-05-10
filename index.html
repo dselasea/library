@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Library Project</title>
+</head>
+<body>
+  <nav>
+    <header class="container">
+      <h1 class="title">Library Project</h1>
+    </header>
+  </nav>
+  <main class="container">
+    <section class="addbook">
+      <button class="btn btn-add" id="btn-add">Add Book</button>
+    </section>
+    <section class="book-container" id="book-container">
+
+    </section>
+  </main>
+  <div class="blur" id="blur"></div>
+  <div class="form-container" id="form-container">
+  <form class="form" id="form">
+    <div class="form-title">
+      <h2>New Book</h2>
+      <span id="close" class="close">X</span>
+    </div>
+    <div class="form-control">
+      <input type="text" required placeholder="Title" id="title">
+    </div>
+    <div class="form-control">
+      <input type="text" required placeholder="Author" id="author">
+    </div>
+    <div class="form-control">
+      <input type="number" required placeholder="Pages" id="pages">
+    </div>
+    <div class="check">
+      <label for="read">Read</label>
+      <input id="read" type="checkbox" />
+    </div>
+    <button class="btn add-btn">Add</button>
+  </form>
+ </div>
+  <script src="app.js"></script>
+</body>
+</html>
