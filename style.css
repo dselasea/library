@@ -39,7 +39,7 @@ nav {
   border-radius: 5px;
   cursor: pointer;
   color: #fff;
-  border: 2px solid black;
+  font-weight: bold;
 }
 
 .book-container {
@@ -61,7 +61,12 @@ nav {
   gap: 1rem;
 }
 
-.btn-add,
+.btn-add {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: black;
+}
+
 .btn-remove,
 .add-btn {
   background-color: hsl(346, 75%, 52%);
@@ -72,19 +77,19 @@ nav {
   padding: 1rem 3rem;
 }
 
-.btn-add:hover,
 .btn-remove:hover,
 .add-btn:hover {
   background-color: hsl(346, 75%, 45%);
 }
 
 .btn-read {
-  background-color: hsl(240, 77%, 62%);
+  background-color: hsl(118, 100%, 81%);
   transition: all 0.3s ease;
+  color: black;
 }
 
 .btn-read:hover {
-  background-color: #6E6EEC;
+  background-color: hsl(118, 100%, 79%);
 }
 
 .form-container,
@@ -112,7 +117,7 @@ nav {
 .form {
   margin: auto auto;
   width: 80%;
-  max-width: 700px;
+  max-width: 600px;
   background-color: #fff;
   padding: 2rem;
   border-radius: 5px;
@@ -157,7 +162,7 @@ input[type=checkbox] {
 }
 
 input[type=text] {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 input[type=number] {
